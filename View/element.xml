@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page>
+    <!--Guide Pages -->
+    <activity name = "Guide"><!--activity Name-->
+        <element name="confirm"> <!-- Element Object -->
+            <name>Confirm</name><!-- Element Name -->
+            <type>android.widget.ImageView</type><!-- Element Type input/button -->
+            <pathtype>ID</pathtype><!-- ID/XPATH/CLASSNAME/NAME-->
+            <pathvalue>com.coupang.mobile:id/guide_button</pathvalue><!-- Path Value -->
+        </element>
+
+        <element name="close">
+            <name>Close</name>
+            <type>android.widget.ImageView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/close_btn</pathvalue>
+        </element>
+    </activity>
+    <!--IndexPage -->
+    <activity name = "IndexPage"><!--activity Name-->
+        <element name="topdown">
+            <name>topdown</name>
+            <type>android.widget.ImageView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/top_select_view</pathvalue>
+        </element>
+
+        <element name="search">
+            <name>Search</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/bottom_search_text</pathvalue>
+        </element>
+
+        <element name="searchText">
+            <name>SearchText</name>
+            <type>android.widget.EditText</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/keyword_edit_text</pathvalue>
+        </element>
+
+        <element name="searchBtn">
+            <name>SearchText</name>
+            <type>android.widget.ImageButton</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/button_search_action</pathvalue>
+        </element>
+
+        <element name="backBtn">
+            <name>BackBtn</name>
+            <type>android.widget.ImageButton</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/button_back</pathvalue>
+        </element>
+    </activity>
+        <!--Menu -->
+    <activity name = "MenuBar"><!--activity Name-->
+
+        <element name="menuTab"> <!-- Element Object -->
+            <name>MenuTab</name><!-- Element Name -->
+            <type>android.widget.ImageView</type><!-- Element Type input/button -->
+            <pathtype>ID</pathtype><!-- ID/XPATH/CLASSNAME/NAME-->
+            <pathvalue>com.coupang.mobile:id/ib_tab</pathvalue><!-- Path Value -->
+        </element>
+
+        <element name="buttonMenu">
+            <name>buttonMenu</name>
+            <type>android.widget.ImageButton</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/tab_container_layout</pathvalue>
+        </element>
+
+        <element name="tabContainer">
+            <name>tabContainer</name>
+            <type>android.widget.LinearLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/tab_container_layout</pathvalue>
+        </element>
+    </activity>
+    <!--Category -->
+    <activity name = "CategoryList"><!--activity Name-->
+        <element name="rootLayouts">
+            <name>RootLayout</name>
+            <type>android.widget.LinearLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/root_layout</pathvalue>
+        </element>
+
+        <element name="categoryItems">
+            <name>CategoryItem</name>
+            <type>android.widget.LinearLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/item</pathvalue>
+        </element>
+    </activity>
+    <!--Pages -->
+    <activity name = "SDPCollections"><!--activity Name-->
+
+        <element name="back"> <!-- Element Object -->
+            <name>Back</name><!-- Element Name -->
+            <type>android.widget.ImageButton</type><!-- Element Type input/button -->
+            <pathtype>ID</pathtype><!-- ID/XPATH/CLASSNAME/NAME-->
+            <pathvalue>com.coupang.mobile:id/button_back</pathvalue><!-- Path Value -->
+        </element>
+
+        <element name="productLists">
+            <name>productLists</name>
+            <type>android.widget.RelativeLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/swipe_front_layout</pathvalue>  <!--layout_info-->
+        </element>
+
+        <element name="searchLists">
+            <name>searchLists</name>
+            <type>android.widget.RelativeLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/item_creteria_info</pathvalue>
+        </element>
+
+        <element name="CLP">
+            <name>CLPInfo</name>
+            <type>android.widget.LinearLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/container</pathvalue>
+        </element>
+
+        <element name="CLPText">
+            <name>CLPText</name>
+            <type>android.widget.TextView</type>
+            <pathtype>CLASSNAME</pathtype>
+            <pathvalue>android.widget.TextView</pathvalue>
+        </element>
+
+        <element name="noSearchResults">
+            <name>NoSearchResults</name>
+            <type>android.widget.ImageView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/no_result_img</pathvalue>
+        </element>
+
+        <element name="searchResults">
+            <name>SearchResults</name>
+            <type>android.widget.RelativeLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/item_description</pathvalue>
+        </element>
+    </activity>
+
+    <!--Pages -->
+    <activity name = "SDP"><!--activity Name-->
+
+        <element name="title">
+            <name>Title</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/name_text</pathvalue>
+        </element>
+
+        <element name="share">
+            <name>Share</name>
+            <type>android.widget.ImageView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/share</pathvalue>
+        </element>
+
+        <element name="back">
+            <name>Back</name>
+            <type>android.widget.ImageButton</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/button_back</pathvalue>
+        </element>
+
+        <element name="cancelShareBtn">
+            <name>cancelShareBtn</name>
+            <type>android.widget.Button</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/button_cancel</pathvalue>
+        </element>
+
+        <element name="shareOptions">
+            <name>shareOptions</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/icon_text</pathvalue>
+        </element>
+
+        <element name="backToHome">
+            <name>backToHome</name>
+            <type>android.widget.ImageButton</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/button_home</pathvalue>
+        </element>
+        <element name="backHome">
+            <name>backToHome</name>
+            <type>android.widget.ImageButton</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/button_home_action</pathvalue>
+        </element>
+
+        <element name="rateParent">
+            <name>rateParent</name>
+            <type>android.widget.LinearLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/review_rating_view</pathvalue>
+        </element>
+        <element name="rate">
+            <name>rate</name>
+            <type>android.widget.ImageView</type>
+            <pathtype>CLASSNAME</pathtype>
+            <pathvalue>android.widget.ImageView</pathvalue>
+        </element>
+        <element name="optionSelector">
+            <name>options</name>
+            <type>android.widget.RelativeLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/first_attribute</pathvalue>
+        </element>
+
+        <element name="options">
+            <name>options</name>
+            <type>android.widget.RelativeLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/detail_layout</pathvalue>
+        </element>
+
+        <element name="optionName">
+            <name>optionNAme</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/item_name</pathvalue>
+        </element>
+
+        <element name="optionPrice">
+            <name>optionPrice</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/coupang_price</pathvalue>
+        </element>
+
+        <element name="baseAttr">
+            <name>baseAttr</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/base_attribute</pathvalue>
+        </element>
+
+        <element name="secondAttr">
+            <name>secondAttr</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/second_attribute</pathvalue>
+        </element>
+
+        <element name="favorite">
+            <name>favorite</name>
+            <type>android.widget.ImageView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/favorite</pathvalue>
+        </element>
+
+        <element name="salePrice">
+            <name>salePrice</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/sales_price_text</pathvalue>
+        </element>
+        <element name="mapleSalePrice">
+            <name>mapleSalePrice</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/subscribe_sales_price_text</pathvalue>
+        </element>
+        <element name="mapleOriginalSalePrice">
+            <name>mapleOriginalSalePrice</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/subscribe_price_text</pathvalue>
+        </element>
+
+        <element name="mapleOriginalUnitPrice">
+            <name>mapleOriginalUnitPrice</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/subscribe_unit_price_text</pathvalue>
+        </element>
+
+        <element name="mapleProductUnitPrice">
+            <name>mapleProductUnitPrice</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/subscribe_sales_unit_price_text</pathvalue>
+        </element>
+
+        <element name="mapleTooltip">
+            <name>mapleTooltip</name>
+            <type>android.widget.FrameLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/tooltip_contentholder</pathvalue>
+        </element>
+        <element name="tooltipContent">
+            <name>mapleTooltip</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/tooltip_contenttv</pathvalue>
+        </element>
+        <element name="mapleOption">
+            <name>mapleTooltip</name>
+            <type>android.widget.RelativeLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/option_layout</pathvalue>
+        </element>
+        <element name="categorySign">
+            <name>categorySign</name>
+            <type>android.widget.ImageView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/coupang_delivery_img</pathvalue>
+        </element>
+
+        <element name="deliveryDesc">
+            <name>deliveryDesc</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/delivery_description</pathvalue>
+        </element>
+
+        <element name="shipFee">
+            <name>shipFee</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/shipping_fee</pathvalue>
+        </element>
+
+        <element name="categorySign">
+            <name>categorySign</name>
+            <type>android.widget.ImageView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/coupang_delivery_img</pathvalue>
+        </element>
+
+        <element name="purchase">
+            <name>purchase</name>
+            <type>android.widget.RelativeLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/gnb_purchase_button</pathvalue>
+        </element>
+
+        <element name="maplePurchase">
+            <name>maplePurchase</name>
+            <type>android.widget.RelativeLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/gnb_subscribe_button</pathvalue>
+        </element>
+
+        <element name="add">
+            <name>add</name>
+            <type>android.widget.ImageButton</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/onetime_increase_btn</pathvalue>
+        </element>
+
+        <element name="minus">
+            <name>minus</name>
+            <type>android.widget.ImageButton</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/onetime_decrease_btn</pathvalue>
+        </element>
+
+        <element name="mapleAdd">
+            <name>add</name>
+            <type>android.widget.ImageButton</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/increase_btn</pathvalue>
+        </element>
+
+        <element name="mapleMinus">
+            <name>minus</name>
+            <type>android.widget.ImageButton</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/decrease_btn</pathvalue>
+        </element>
+
+        <element name="mapleQuantity">
+            <name>quantity</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/quantity_text</pathvalue>
+        </element>
+
+        <element name="mapleDeliveryDesc">
+            <name>mapleDeliveryDesc</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/subscribe_service_descriptions_text</pathvalue>
+        </element>
+
+        <element name="quantity">
+            <name>quantity</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/onetime_quantity_text</pathvalue>
+        </element>
+
+        <element name="selectedLayout">
+            <name>selectedLayout</name>
+            <type>android.widget.LinearLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/selected_option_layout</pathvalue>
+        </element>
+
+        <element name="selectedMapleLayout">
+            <name>selectedLayout</name>
+            <type>android.widget.LinearLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/selected_subscription_option_layout</pathvalue>
+        </element>
+        <element name="originalPrice">
+            <name>originalPrice</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/sales_price_text</pathvalue>
+        </element>
+
+        <element name="originalShipFee">
+            <name>originalShipFee</name>
+            <type>android.widget.TextView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/shipping_text</pathvalue>
+        </element>
+
+        <element name="hiddenBtn">
+            <name>hiddenBtn</name>
+            <type>android.widget.FrameLayout</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>com.coupang.mobile:id/top_open_option_button_click</pathvalue>
+        </element>
+
+        <element name="IDs">
+            <name>IDs</name>
+            <type>android.view.View</type>
+            <pathtype>CLASSNAME</pathtype>
+            <pathvalue>android.view.View</pathvalue>
+        </element>
+
+        <element name="IDsParentView">
+            <name>IDsParentView</name>
+            <type>android.widget.GridView</type>
+            <pathtype>CLASSNAME</pathtype>
+            <pathvalue>android.widget.GridView</pathvalue>
+        </element>
+
+        <element name="WebViewTable">
+            <name>WebViewTable</name>
+            <type>table</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>item-basic-info-detail</pathvalue>
+        </element>
+
+        <element name="pinchZoomPic">
+            <name>pinchZoomPic</name>
+            <type>WebView</type>
+            <pathtype>CLASSNAME</pathtype>
+            <pathvalue>pinch-zoom-container</pathvalue>
+        </element>
+
+        <element name="productIDS">
+            <name>productIDS</name>
+            <type>WebView</type>
+            <pathtype>ID</pathtype>
+            <pathvalue>contents</pathvalue>
+        </element>
+
+
+    </activity>
+
+     <!--Alert -->
+    <activity name="Alert">
+        <element name="layout">
+            <name>layout</name>
+            <type>UIAAlert</type>
+            <pathtype>XPATH</pathtype>
+            <pathvalue>//UIAApplication[1]/UIAWindow[7]/UIAAlert[1]</pathvalue>
+        </element>
+        <element name="cancel">
+            <name>Cancel</name>
+            <type>UIACollectionCell</type>
+            <pathtype>XPATH</pathtype>
+            <pathvalue>//UIAApplication[1]/UIAWindow[7]/UIAAlert[1]/UIACollectionView[1]/UIACollectionCell[1]</pathvalue>
+        </element>
+        <element name="message">
+            <name>message</name>
+            <type>UIAStaticText</type>
+            <pathtype>XPATH</pathtype>
+            <pathvalue>//UIAApplication[1]/UIAWindow[7]/UIAAlert[1]/UIAScrollView[1]/UIAStaticText[2]</pathvalue>
+        </element>
+    </activity>
+
+    <!--NavigateBar -->
+    <activity name = "NavigateBar"><!--activity Name-->
+        <element name="previous"> <!-- Element Object -->
+            <name>Previous</name><!-- Element Name -->
+            <type>UIAButton</type><!-- Element Type input/button -->
+            <pathtype>XPATH</pathtype><!-- ID/XPATH/CLASSNAME/NAME-->
+            <pathvalue>//UIAApplication[1]/UIAWindow[1]/UIAButton[3]</pathvalue><!-- Path Value -->
+        </element>
+        <element name="next">
+            <name>Next</name>
+            <type>UIAButton</type>
+            <pathtype>XPATH</pathtype>
+            <pathvalue>//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</pathvalue>
+        </element>
+
+        <element name="elements">
+            <name>Elements</name>
+            <type>UIAElement</type>
+            <pathtype>CLASSNAME</pathtype>
+            <pathvalue>UIAElement</pathvalue>
+        </element>
+    </activity>
+
+</Page>

@@ -1,0 +1,4 @@
+ID,TestSuite,ToBeExecuted,Application
+1,testSuite_global,yes,MyApp
+2,testSuite_rocket,,MyApp
+3,testSuite_search,yes,MyApp
