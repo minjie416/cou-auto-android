@@ -1,0 +1,26 @@
+2016-10-18 14:33	[-] Error occur @select_sdp_item
+2016-10-18 14:33	[-] Error is 'NoneType' object has no attribute 'click'
+2016-10-18 14:33	[-] Error occur @get_product_price
+2016-10-18 14:33	[-] Error is Could not find price element after swipe 5 times!
+2016-10-18 14:33	[-] Error occur @get_product_title
+2016-10-18 14:33	[-] Error is Message: An unknown server-side error occurred while processing the command.
+
+2016-10-18 14:33	[-] Error occur @initialize_pages
+2016-10-18 14:33	[-] Error is 'NoneType' object has no attribute 'click'
+2016-10-18 14:34	[-] Error occur @select_category_tab
+2016-10-18 14:34	[-] Error is Message: An element could not be located on the page using the given search parameters.
+
+2016-10-18 14:34	[-] Error occur @select_global_product_category
+2016-10-18 14:34	[-] Error is list index out of range
+2016-10-18 14:34	[-] Error occur @select_sdp_item
+2016-10-18 14:34	[-] Error is Could not find IDs element after swipe 15 times!
+2016-10-18 14:34	[-] Error occur @select_an_option
+2016-10-18 14:34	[-] Error is object of type 'NoneType' has no len()
+2016-10-18 14:35	[-] Error occur @initialize_pages
+2016-10-18 14:35	[-] Error is 'NoneType' object has no attribute 'click'
+2016-10-18 14:35	[-] Error occur @select_category_tab
+2016-10-18 14:35	[-] Error is Message: An element could not be located on the page using the given search parameters.
+
+2016-10-18 14:35	[-] Error occur @select_global_product_category
+2016-10-18 14:35	[-] Error is list index out of range
+2016-10-18 14:32	<-----------Running in class GlobalDeliveryTests-------------->
